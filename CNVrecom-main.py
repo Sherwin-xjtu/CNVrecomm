@@ -1,6 +1,6 @@
-# from CNVrecomSST.dglHeteroModel import CNVrecommMainSST
+from CNVrecomSST.dglHeteroModel import CNVrecommMainSST
 from CNVrecomST.dglHeteroModel import CNVrecommMainST
-# from CNVrecomSTT.dglHeteroModel import CNVrecommMainSTT
+from CNVrecomSTT.dglHeteroModel import CNVrecommMainSTT
 from dataProcessing import nodes
 import pandas as pd
 import os
@@ -11,7 +11,7 @@ from collections import Counter
 
 def CNVrecommResults(r1, r2, r3, mt):
     result = []
-    file_path = '/Volumes/MyBook/2023work/CNVrecommendation/CNVrecomResults/predictResults/ExtractingMetaTargetScarler_{}pre.csv'.format(mt)
+    file_path = 'ExtractingMetaTargetScarler_{}pre.csv'.format(mt)
     if len(r1) == len(r2) == len(r3):
         for i in range(len(r1)):
             temp = [r1['MMGR_pre'][i], r2['MMGR_pre'][i], r3['MMGR_pre'][i]]
@@ -56,14 +56,9 @@ def main(arguments):
     readDepth = arguments.sampleDepth
     file_path = arguments.cbam
     file_name = os.path.basename(file_path)
-    # file_name_without_extension = os.path.splitext(file_name)[0]
-    # print(file_name)
-    # print(file_name_without_extension)
-    # exit()
+
     sample = file_name
-    # sample_arrdf = pd.DataFrame({'purity':[0.6], 'shortCNV':[0.3], 'middleCNV':[0.3], 'largeCNV':[0.1], 'deletion':[0.3], 'readLen':[101], 'readDepth':[100], 'Stype':['Stype'], 'Ftype':['Ftype'], 'Ptype':['Ptype'], 'sample':['sampleid']})
     current_path = os.path.dirname(os.path.abspath(__file__))
-    # sampleid = sample_arrdf['sample'][0]
     pecnvout_dir = current_path + '/bam2tsv/pecnvout/'
     if not os.path.exists(pecnvout_dir):
         pecnvout_dir = b2t.getEstimated(arguments, current_path)
