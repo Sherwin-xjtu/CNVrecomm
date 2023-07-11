@@ -2,7 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/Sherwin-xjtu/CNVrecom/edit/master/README.md)
 
-CNVrecom: CNVrecommender: An online service to recommend suitable tools for Copy Number Variation Detection![image](https://github.com/Sherwin-xjtu/CNVrecom/assets/52821375/ffdac0e5-ad49-4439-98fc-0540606843b6)
+CNVrecom: CNVrecommender: An online service to recommend suitable tools for Copy Number Variation Detection!
 
 CNVrecom is a copy number variation (CNV) detection software recommendation algorithm developed based on meta-learning, meta-paths, and deep graph neural network technologies! 
 
