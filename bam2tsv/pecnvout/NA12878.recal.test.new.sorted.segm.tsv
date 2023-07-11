@@ -1,0 +1,2 @@
+chromosome	start	end	gene	log2	depth	probes	weight	ci_lo	ci_hi
+1	100336353	100341011	AGL	-0.00347537	286.361	3	2.983	-0.0307742	0.0192624
