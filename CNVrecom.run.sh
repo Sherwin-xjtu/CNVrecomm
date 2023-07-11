@@ -1,0 +1,1 @@
+python /home/cnv_user/software/CNVrecom/CNVrecom-main.py -c /home/cnv_user/software/CNVrecom/data/NA12878.recal.test.new.sorted.bam -n /home/cnv_user/software/CNVrecom/data/NA12878n.recal.test.new.sorted.bam -t /home/cnv_user/software/CNVrecom/data/chip.bed -p 0 -l 101 -d 100 -o /home/cnv_user/CNVrecomReport.tsv
