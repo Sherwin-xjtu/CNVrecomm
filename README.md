@@ -45,7 +45,7 @@ $ python /home/cnv_user/software/CNVrecom/CNVrecom-main.py -c /home/cnv_user/sof
 
 -t chip.bed. Input Sample Sequencing Capture Interval (bed file).
 
--p purity. e.g.'-p 0.' indicates that the input tumor purity is 0.6. Note: The tumor purity of the input sample is required. It is recommended to use the ABSOLUTE tool to estimate the tumor purity of the sample.
+-p purity. e.g.'-p 0.6' indicates that the input tumor purity is 0.6. Note: The tumor purity of the input sample is required. It is recommended to use the ABSOLUTE tool to estimate the tumor purity of the sample.
 
 -l read length. e.g. '-l 150' indicates that the input read length is 150bp. Note: This can be obtained using tools like samtools or pysam.
 
