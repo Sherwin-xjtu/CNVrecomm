@@ -50,6 +50,8 @@ $ python ~/CNVrecom/CNVrecom-main.py -c NA12878.recal.test.new.sorted.bam -n NA1
 -l read length. e.g. '-l 150' indicates that the input read length is 150bp. Note: This can be obtained using tools like samtools or pysam.
 
 -d sampleDepth. e.g. '-d 100' indicates that the input sample's average depth is 100X. Note: This can be obtained using tools like samtools or pysam.
+
+-o CNVrecomReport.tsv. Output the report file of CNVrecom recommended.
 ```
 
 
