@@ -3,12 +3,11 @@
 import numpy as np
 from system.Tri_training01.Learn import Learn
 from sklearn.metrics import accuracy_score
-""" 以硬投票的方式集成三个已训练好的分类器 """
 
 class  Bagging:
-	""" 构造函数参数为一个含有三个分类器的列表 """
+	"""  """
 	def __init__(self, arg):
-		self.M = arg  # 初始的三个分类器
+		self.M = arg  # 
 
 
 
@@ -66,5 +65,5 @@ class  Bagging:
 		y_3_p = self.M[2].predict_proba(x_test)
 		y_p = (y_1_p + y_2_p+y_3_p)/3
 		y_pr = y_p.argmax(axis=1)  #idx
-		pro = np.amax(y_p,axis=1)    #每行最大值
+		pro = np.amax(y_p,axis=1)    #
 		return pro
