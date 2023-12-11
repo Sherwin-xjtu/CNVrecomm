@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 class Graphic:
-	""" 结果可视化 """
+	"""  """
 
 	def __init__(self, data):		
 		self.Data = data
