@@ -33,7 +33,7 @@ Uncompress the installation zip:
 
 
 ```sh
-$ python ~/CNVrecom/CNVtools-main.py -c NA12878.recal.test.new.sorted.bam -n NA12878n.recal.test.new.sorted.bam -t chip.bed -p 0 -l 101 -d 100 -o CNVrecomReport.tsv
+$ python ~/CNVtools/CNVtools-main.py -c NA12878.recal.test.new.sorted.bam -n NA12878n.recal.test.new.sorted.bam -t chip.bed -p 0 -l 101 -d 100 -o CNVrecomReport.tsv
 
 #parameters
 
