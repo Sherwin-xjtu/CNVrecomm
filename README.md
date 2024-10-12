@@ -2,9 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/Sherwin-xjtu/CNVrecom/edit/master/README.md)
 
-CNVrecom: CNVrecommender: An online service to recommend suitable tools for Copy Number Variation Detection!
-
-CNVrecom is a copy number variation (CNV) detection software recommendation algorithm developed based on meta-learning, meta-paths, and deep graph neural network technologies! 
+CNVtools: Enhancing CNV Detection Performance by Ensembing Strategies with Heterogeneous Meta-Graph Neural Networks
 
 ## Table of Contents
 
@@ -28,14 +26,14 @@ CNVrecom is a copy number variation (CNV) detection software recommendation algo
 Uncompress the installation zip:
 
     $ cd /my/install/dir/
-    $ unzip /path/to/CNVrecom.zip
+    $ unzip /path/to/CNVtools.zip
     
 
 ## Usage
 
 
 ```sh
-$ python ~/CNVrecom/CNVrecom-main.py -c NA12878.recal.test.new.sorted.bam -n NA12878n.recal.test.new.sorted.bam -t chip.bed -p 0 -l 101 -d 100 -o CNVrecomReport.tsv
+$ python ~/CNVrecom/CNVtools-main.py -c NA12878.recal.test.new.sorted.bam -n NA12878n.recal.test.new.sorted.bam -t chip.bed -p 0 -l 101 -d 100 -o CNVrecomReport.tsv
 
 #parameters
 
@@ -51,7 +49,7 @@ $ python ~/CNVrecom/CNVrecom-main.py -c NA12878.recal.test.new.sorted.bam -n NA1
 
 -d sampleDepth. e.g. '-d 100' indicates that the input sample's average depth is 100X. Note: This can be obtained using tools like samtools or pysam.
 
--o CNVrecomReport.tsv. The output file of recommendation report from CNVrecom.
+-o CNVrecomReport.tsv. The output file of report from CNVtools.
 ```
 
 
@@ -61,7 +59,7 @@ $ python ~/CNVrecom/CNVrecom-main.py -c NA12878.recal.test.new.sorted.bam -n NA1
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/Sherwin-xjtu/CNVrecom/issues/new) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/Sherwin-xjtu/CNVtools/issues/new) or submit PRs.
 
 ## License
 
