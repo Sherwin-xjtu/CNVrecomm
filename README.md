@@ -1,8 +1,8 @@
-# CNVtools
+# EMcnv
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/Sherwin-xjtu/CNVrecom/edit/master/README.md)
 
-CNVtools: Enhancing CNV Detection Performance by Ensembing Strategies with Heterogeneous Meta-Graph Neural Networks
+EMcnv: Enhancing CNV Detection Performance by Ensembing Strategies with Heterogeneous Meta-Graph Neural Networks
 
 ## Table of Contents
 
@@ -26,14 +26,14 @@ CNVtools: Enhancing CNV Detection Performance by Ensembing Strategies with Heter
 Uncompress the installation zip:
 
     $ cd /my/install/dir/
-    $ unzip /path/to/CNVtools.zip
+    $ unzip /path/to/EMcnv.zip
     
 
 ## Usage
 
 
 ```sh
-$ python ~/CNVtools/CNVtools-main.py -c NA12878.recal.test.new.sorted.bam -n NA12878n.recal.test.new.sorted.bam -t chip.bed -p 0 -l 101 -d 100 -o CNVrecomReport.tsv
+$ python ~/EMcnv/EMcnv-main.py -c NA12878.recal.test.new.sorted.bam -n NA12878n.recal.test.new.sorted.bam -t chip.bed -p 0 -l 101 -d 100 -o CNVrecomReport.tsv
 
 #parameters
 
@@ -49,7 +49,7 @@ $ python ~/CNVtools/CNVtools-main.py -c NA12878.recal.test.new.sorted.bam -n NA1
 
 -d sampleDepth. e.g. '-d 100' indicates that the input sample's average depth is 100X. Note: This can be obtained using tools like samtools or pysam.
 
--o CNVrecomReport.tsv. The output file of report from CNVtools.
+-o CNVrecomReport.tsv. The output file of report from EMcnv.
 ```
 
 
@@ -59,7 +59,7 @@ $ python ~/CNVtools/CNVtools-main.py -c NA12878.recal.test.new.sorted.bam -n NA1
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/Sherwin-xjtu/CNVtools/issues/new) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/Sherwin-xjtu/EMcnv/issues/new) or submit PRs.
 
 ## License
 
